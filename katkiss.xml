@@ -6,7 +6,7 @@
             fetch="git://github.com/" />
 
   <remove-project name="platform/build" />
-  <project path="build" name="timduru/platform-build" revision="katkiss-5.0_GCC-tmp" remote="github" >
+  <project path="build" name="timduru/platform-build" revision="katkiss-5.0" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -43,7 +43,9 @@
   <project path="packages/apps/Settings" name="timduru/platform-packages-apps-Settings"  revision="katkiss-5.0" remote="github" />
   <remove-project name="platform/packages/apps/Email" />
   <project path="packages/apps/Email" name="timduru/platform-packages-apps-Email"  revision="katkiss-5.0" remote="github" />
-  
+
+
+
 <!--  <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="timduru/platform-hardware-libhardware"  revision="katkiss-5.0" remote="github" /> -->
 <!--  <remove-project name="platform/external/bluetooth/bluedroid" />
@@ -92,11 +94,11 @@
   <project path="external/ncurses" name="timduru/platform-external-ncurses"  revision="katkiss-4.3" remote="github"/>
   <project path="external/ntfs-3g" name="timduru/platform-external-ntfs-3g"  revision="katkiss-5.0" remote="github"/>
 
-  <project path="vendor/eos" name="timduru/platform-vendor-eos"  revision="katkiss-4.3" remote="github"/>
+  <project path="vendor/eos" name="timduru/platform-vendor-eos"  revision="katkiss-5.0" remote="github"/>
   <project path="vendor/asus" name="timduru/platform-vendor-asus"  revision="eos-4.2.2" remote="github"/>
   <project path="vendor/widevine" name="timduru/platform-vendor-widevine"  revision="katkiss-4.4" remote="github"/>
   <project path="kernel/asus/tf101" name="timduru/kernel-asus-tf101" revision="eos-4.2.2" remote="github"/>
-  <project path="device/asus/tf101" name="timduru/device_asus_tf101" revision="katkiss-5.0" remote="github"/>
+  <project path="device/asus/tf101" name="timduru/device_asus_tf101" revision="katkiss-5.0_HWC1.0" remote="github"/>
   <project path="device/asus/tf300t" name="timduru/android_device_asus_tf300t" revision="katkiss-5.0" remote="github"/>
 <!--  <project path="vendor/tmobile/apps/ThemeChooser" name="timduru/platform-vendor-tmobile-apps-ThemeChooser"  revision="eos-4.2.2" remote="github"/>
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="timduru/platform-vendor-tmobile-libs-com.tmobile.themes"  revision="eos-4.2.2" remote="github"/>
