@@ -33,7 +33,7 @@
   <remove-project name="platform/frameworks/wilhelm" />
   <project path="frameworks/wilhelm" name="timduru/platform-frameworks-wilhelm" revision="aosp-5.0_buildfix" remote="github"/>
   <remove-project name="platform/frameworks/ex" />
-  <project path="frameworks/ex" name="timduru/platform-frameworks-ex" revision="katkisss-5.0" remote="github"/>
+  <project path="frameworks/ex" name="timduru/platform-frameworks-ex" revision="katkiss-5.0" remote="github"/>
 
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="timduru/platform-frameworks-av" revision="katkiss-5.0"  remote="github"/>
