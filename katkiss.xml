@@ -17,8 +17,8 @@
   <project path="bootable/recovery" name="timduru/platform-bootable-recovery" revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/dalvik" />
   <project path="dalvik" name="timduru/platform-dalvik" revision="katkiss-5.1" remote="github" />
-  <remove-project name="platform/external/e2fsprogs" />
-  <project path="external/e2fsprogs" name="timduru/platform-external-e2fsprogs"  revision="katkiss-5.1" remote="github" />
+<!--  <remove-project name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="timduru/platform-external-e2fsprogs"  revision="katkiss-5.1" remote="github" /> -->
   <remove-project name="platform/external/kernel-headers" />
   <project path="external/kernel-headers" name="timduru/platform-external-kernel-headers"  revision="katkiss-5.0" remote="github" />
   <remove-project name="platform/libcore" />
@@ -80,8 +80,8 @@
   <project path="hardware/broadcom/wlan" name="timduru/platform-hardware-broadcom-wlan"  revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/packages/apps/Browser" />
   <project path="packages/apps/Browser" name="timduru/platform-packages-apps-browser"  revision="katkiss-5.1" remote="github"/>
-  <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="timduru/platform-packages-apps-launcher3"  revision="katkiss-5.1" remote="github"/>
+<!--  <remove-project name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="timduru/platform-packages-apps-launcher3"  revision="katkiss-5.1" remote="github"/> -->
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/LatinIME" name="timduru/platform-packages-inputmethods-LatinIME"   revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/system/core" />
