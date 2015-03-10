@@ -6,54 +6,54 @@
             fetch="git://github.com/" />
 
   <remove-project name="platform/build" />
-  <project path="build" name="timduru/platform-build" revision="katkiss-5.0" remote="github" >
+  <project path="build" name="timduru/platform-build" revision="katkiss-5.1" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
 <!--  <project path="art" name="timduru/platform_art"  revision="katkiss-4.4" remote="github"/> -->
   <remove-project name="platform/bionic" />
-  <project path="bionic" name="timduru/platform-bionic"  revision="katkiss-5.0" remote="github" />
+  <project path="bionic" name="timduru/platform-bionic"  revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="timduru/platform-bootable-recovery" revision="katkiss-5.0" remote="github" />
+  <project path="bootable/recovery" name="timduru/platform-bootable-recovery" revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/dalvik" />
-  <project path="dalvik" name="timduru/platform-dalvik" revision="katkiss-5.0" remote="github" />
+  <project path="dalvik" name="timduru/platform-dalvik" revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/external/e2fsprogs" />
-  <project path="external/e2fsprogs" name="timduru/platform-external-e2fsprogs"  revision="katkiss-5.0" remote="github" />
+  <project path="external/e2fsprogs" name="timduru/platform-external-e2fsprogs"  revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/external/kernel-headers" />
   <project path="external/kernel-headers" name="timduru/platform-external-kernel-headers"  revision="katkiss-5.0" remote="github" />
   <remove-project name="platform/libcore" />
-  <project path="libcore" name="timduru/platform-libcore" revision="aosp-5.0_buildfix" remote="github"/>
+  <project path="libcore" name="timduru/platform-libcore" revision="aosp-5.1_buildfix" remote="github"/>
   <remove-project name="platform/external/skia" />
-  <project path="external/skia" name="timduru/platform-external-skia"  revision="katkiss-5.0" remote="github" />
+  <project path="external/skia" name="timduru/platform-external-skia"  revision="katkiss-5.1" remote="github" />
 
   <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="timduru/platform-frameworks-native" revision="katkiss-5.0" remote="github"/>
+  <project path="frameworks/native" name="timduru/platform-frameworks-native" revision="katkiss-5.1" remote="github"/>
 
   <remove-project name="platform/frameworks/opt/net/wifi" />
-  <project path="frameworks/opt/net/wifi" name="timduru/platform-frameworks-opt-net-wifi" revision="katkiss-5.0" remote="github" />
+  <project path="frameworks/opt/net/wifi" name="timduru/platform-frameworks-opt-net-wifi" revision="katkiss-5.1" remote="github" />
 
   <remove-project name="platform/frameworks/wilhelm" />
-  <project path="frameworks/wilhelm" name="timduru/platform-frameworks-wilhelm" revision="aosp-5.0_buildfix" remote="github"/>
+  <project path="frameworks/wilhelm" name="timduru/platform-frameworks-wilhelm" revision="aosp-5.1_buildfix" remote="github"/>
   <remove-project name="platform/frameworks/ex" />
-  <project path="frameworks/ex" name="timduru/platform-frameworks-ex" revision="katkiss-5.0" remote="github"/>
+  <project path="frameworks/ex" name="timduru/platform-frameworks-ex" revision="katkiss-5.1" remote="github"/>
 
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="timduru/platform-frameworks-av" revision="katkiss-5.0"  remote="github"/>
+  <project path="frameworks/av" name="timduru/platform-frameworks-av" revision="katkiss-5.1"  remote="github"/>
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="timduru/platform-frameworks-base" revision="katkiss-5.0" remote="github"/>
+  <project path="frameworks/base" name="timduru/platform-frameworks-base" revision="katkiss-5.1" remote="github"/>
   <remove-project name="platform/packages/providers/MediaProvider" />
-  <project path="packages/providers/MediaProvider" name="timduru/platform-packages-providers-MediaProvider"  revision="katkiss-5.0" remote="github" />
+  <project path="packages/providers/MediaProvider" name="timduru/platform-packages-providers-MediaProvider"  revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="timduru/platform-packages-apps-Settings"  revision="katkiss-5.0" remote="github" />
+  <project path="packages/apps/Settings" name="timduru/platform-packages-apps-Settings"  revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/packages/apps/Email" />
-  <project path="packages/apps/Email" name="timduru/platform-packages-apps-Email"  revision="katkiss-5.0" remote="github" />
+  <project path="packages/apps/Email" name="timduru/platform-packages-apps-Email"  revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
-  <project path="packages/apps/UnifiedEmail" name="timduru/platform-packages-apps-UnifiedEmail"  revision="katkiss-5.0" remote="github" />
+  <project path="packages/apps/UnifiedEmail" name="timduru/platform-packages-apps-UnifiedEmail"  revision="katkiss-5.1" remote="github" />
 
   <remove-project name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/Contacts" name="timduru/platform-packages-apps-Contacts"  revision="katkiss-5.0" remote="github" />
+  <project path="packages/apps/Contacts" name="timduru/platform-packages-apps-Contacts"  revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/packages/apps/ContactsCommon" />
-  <project path="packages/apps/ContactsCommon" name="timduru/platform-packages-apps-ContactsCommon"  revision="katkiss-5.0" remote="github" />
+  <project path="packages/apps/ContactsCommon" name="timduru/platform-packages-apps-ContactsCommon"  revision="katkiss-5.1" remote="github" />
 
 
 <!--  <remove-project name="platform/hardware/libhardware" />
@@ -77,21 +77,21 @@
 -->
 
   <remove-project name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/broadcom/wlan" name="timduru/platform-hardware-broadcom-wlan"  revision="katkiss-5.0" remote="github" />
+  <project path="hardware/broadcom/wlan" name="timduru/platform-hardware-broadcom-wlan"  revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/packages/apps/Browser" />
-  <project path="packages/apps/Browser" name="timduru/platform-packages-apps-browser"  revision="katkiss-5.0" remote="github"/>
+  <project path="packages/apps/Browser" name="timduru/platform-packages-apps-browser"  revision="katkiss-5.1" remote="github"/>
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="timduru/platform-packages-apps-launcher3"  revision="katkiss-5.0" remote="github"/>
+  <project path="packages/apps/Launcher3" name="timduru/platform-packages-apps-launcher3"  revision="katkiss-5.1" remote="github"/>
   <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <project path="packages/inputmethods/LatinIME" name="timduru/platform-packages-inputmethods-LatinIME"   revision="katkiss-5.0" remote="github" />
+  <project path="packages/inputmethods/LatinIME" name="timduru/platform-packages-inputmethods-LatinIME"   revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/system/core" />
-  <project path="system/core" name="timduru/android-system-core"  revision="omni-katkiss-5.0-tmpfix" remote="github"/>
+  <project path="system/core" name="timduru/android-system-core"  revision="omni-katkiss-5.1-tmpfix" remote="github"/>
   <remove-project name="platform/system/extras" />
-  <project path="system/extras" name="timduru/platform-system-extras"  revision="cm-10.2_katkiss-5.0" remote="github"/>
+  <project path="system/extras" name="timduru/platform-system-extras"  revision="cm-10.2_katkiss-5.1" remote="github"/>
   <remove-project name="platform/system/vold" />
-  <project path="system/vold" name="timduru/platform-system-vold"  revision="cm-12.0_katkiss-5.0" remote="github"/>
+  <project path="system/vold" name="timduru/platform-system-vold"  revision="cm-12.0_katkiss-5.1" remote="github"/>
   <remove-project name="platform/system/netd" />
-  <project path="system/netd" name="timduru/platform-system-netd"  revision="katkiss-5.0" remote="github"/>
+  <project path="system/netd" name="timduru/platform-system-netd"  revision="katkiss-5.1" remote="github"/>
 
 
   <project path="external/exfat" name="timduru/platform-external-exfat"  revision="katkiss-5.0" remote="github" />
