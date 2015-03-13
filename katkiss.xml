@@ -110,8 +110,8 @@
   <project path="vendor/asus" name="timduru/platform-vendor-asus"  revision="eos-4.2.2" remote="github"/>
   <project path="vendor/widevine" name="timduru/platform-vendor-widevine"  revision="katkiss-4.4" remote="github"/>
   <project path="kernel/asus/tf101" name="timduru/kernel-asus-tf101" revision="eos-4.2.2" remote="github"/>
-  <project path="device/asus/tf101" name="timduru/device_asus_tf101" revision="katkiss-5.0_HWC1.0" remote="github"/>
-  <project path="device/asus/tf300t" name="timduru/android_device_asus_tf300t" revision="katkiss-5.0" remote="github"/>
+  <project path="device/asus/tf101" name="timduru/device_asus_tf101" revision="katkiss-5.1_HWC1.0" remote="github"/>
+  <project path="device/asus/tf300t" name="timduru/android_device_asus_tf300t" revision="katkiss-5.1" remote="github"/>
 <!--  <project path="vendor/tmobile/apps/ThemeChooser" name="timduru/platform-vendor-tmobile-apps-ThemeChooser"  revision="eos-4.2.2" remote="github"/>
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="timduru/platform-vendor-tmobile-libs-com.tmobile.themes"  revision="eos-4.2.2" remote="github"/>
   <project path="vendor/tmobile/providers/ThemeManager" name="timduru/platform-vendor-tmobile-providers-ThemeManager"  revision="eos-4.2.2" remote="github"/> -->
