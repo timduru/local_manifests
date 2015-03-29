@@ -80,8 +80,8 @@
   <project path="hardware/broadcom/wlan" name="timduru/platform-hardware-broadcom-wlan"  revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/packages/apps/Browser" />
   <project path="packages/apps/Browser" name="timduru/platform-packages-apps-browser"  revision="katkiss-5.1" remote="github"/>
-<!--  <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="timduru/platform-packages-apps-launcher3"  revision="katkiss-5.1" remote="github"/> -->
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="timduru/platform-packages-apps-launcher3"  revision="katkiss-5.1" remote="github"/>
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/LatinIME" name="timduru/platform-packages-inputmethods-LatinIME"   revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/system/core" />
