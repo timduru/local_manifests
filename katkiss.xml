@@ -106,7 +106,7 @@
   <project path="external/ncurses" name="timduru/platform-external-ncurses"  revision="katkiss-4.3" remote="github"/>
   <project path="external/ntfs-3g" name="timduru/platform-external-ntfs-3g"  revision="katkiss-5.0" remote="github"/>
 
-  <project path="vendor/eos" name="timduru/platform-vendor-eos"  revision="katkiss-5.0" remote="github"/>
+  <project path="vendor/kat" name="timduru/platform-vendor-kat"  revision="katkiss-5.1" remote="github"/>
   <project path="vendor/asus" name="timduru/platform-vendor-asus"  revision="eos-4.2.2" remote="github"/>
   <project path="vendor/widevine" name="timduru/platform-vendor-widevine"  revision="katkiss-4.4" remote="github"/>
   <project path="kernel/asus/tf101" name="timduru/kernel-asus-tf101" revision="eos-4.2.2" remote="github"/>
