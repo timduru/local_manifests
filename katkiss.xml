@@ -62,11 +62,12 @@
   <project path="external/bluetooth/bluedroid" name="timduru/android-external-bluetooth-bluedroid" revision="katkiss-5.1" remote="github"/> -->
 
 
+  <remove-project name="platform/external/libpng" />
+  <project path="external/libpng" name="timduru/platform-external-libpng"   revision="aosp-5.1_buildfix" remote="github" />
 <!--
   <project path="hardware/libhardware_legacy" name="timduru/platform-hardware-libhardware_legacy"  revision="katkiss-4.4" remote="github" />
 
   <project path="external/f2fs-tools" name="timduru/android_external_f2fs-tools"  revision="katkiss-4.4" remote="github" />
-  <project path="external/libpng" name="timduru/platform-external-libpng"   revision="aosp_master" remote="github" />
   <project path="external/webp" name="timduru/platform_external_webp" revision="chromium_katkiss-4.4" remote="github"/>
   <project path="frameworks/opt/vcard" name="timduru/platform-frameworks-opt-vcard" revision="cm-11.0" remote="github"/>
   <project path="frameworks/rs" name="timduru/platform-frameworks-rs"   revision="katkiss-4.4_tempfix" remote="github" />
