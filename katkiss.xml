@@ -58,8 +58,8 @@
 
 <!--  <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="timduru/platform-hardware-libhardware"  revision="katkiss-5.0" remote="github" /> -->
-<!--  <remove-project name="platform/external/bluetooth/bluedroid" />
-  <project path="external/bluetooth/bluedroid" name="timduru/android-external-bluetooth-bluedroid" revision="katkiss-5.0" remote="github"/> --><!-- base omni-4.4 -->
+  <remove-project name="platform/external/bluetooth/bluedroid" />
+  <project path="external/bluetooth/bluedroid" name="timduru/android-external-bluetooth-bluedroid" revision="katkiss-5.1" remote="github"/> -->
 
 
 <!--
