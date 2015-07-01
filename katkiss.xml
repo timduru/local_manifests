@@ -6,7 +6,7 @@
             fetch="git://github.com/" />
 
   <remove-project name="platform/build" />
-  <project path="build" name="timduru/platform-build" revision="katkiss-5.1" remote="github" >
+  <project path="build" name="timduru/platform-build" revision="katkiss-5.1_Sabermod" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
