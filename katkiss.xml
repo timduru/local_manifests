@@ -12,6 +12,8 @@
 
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="timduru/platform-frameworks-base" revision="katkiss-6.0" remote="github"/>
+  <remove-project name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="timduru/platform-packages-apps-Settings"  revision="katkiss-6.0" remote="github" />
 
 <!--  <project path="art" name="timduru/platform_art"  revision="katkiss-4.4" remote="github"/> -->
   <remove-project name="platform/bionic" />
@@ -150,10 +152,6 @@
   <project path="system/netd" name="timduru/platform-system-netd"  revision="katkiss-5.1" remote="github"/>
 -->
 
-<!--
-  <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="timduru/platform-packages-apps-Settings"  revision="katkiss-5.1" remote="github" />
--->
 
   <remove-project name="device/lge/hammerhead-kernel" />
   <remove-project name="device/moto/shamu-kernel" />
