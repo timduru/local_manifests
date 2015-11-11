@@ -18,8 +18,8 @@
   <project path="packages/apps/Gallery2" name="timduru/platform-packages-apps-Gallery2"  revision="katkiss-6.0" remote="github" />
 
 <!--  <project path="art" name="timduru/platform_art"  revision="katkiss-4.4" remote="github"/> -->
-<!--  <remove-project name="platform/bionic" />
-  <project path="bionic" name="timduru/platform-bionic"  revision="katkiss-6.0" remote="github" /> -->
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="timduru/platform-bionic"  revision="aosp-6.0_katkiss-6.0" remote="github" />
   <remove-project name="platform/bootable/recovery" />
   <project path="bootable/recovery" name="timduru/platform-bootable-recovery" revision="katkiss-6.0" remote="github" />
   <remove-project name="platform/dalvik" />
