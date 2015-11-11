@@ -17,6 +17,9 @@
   <remove-project name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/Gallery2" name="timduru/platform-packages-apps-Gallery2"  revision="katkiss-6.0" remote="github" />
 
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="timduru/platform-packages-apps-launcher3"  revision="katkiss-6.0" remote="github" />
+
 <!--  <project path="art" name="timduru/platform_art"  revision="katkiss-4.4" remote="github"/> -->
   <remove-project name="platform/bionic" />
   <project path="bionic" name="timduru/platform-bionic"  revision="aosp-6.0_katkiss-6.0" remote="github" />
@@ -150,8 +153,6 @@
   <project path="packages/apps/ContactsCommon" name="timduru/platform-packages-apps-ContactsCommon"  revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/external/libpng" />
   <project path="external/libpng" name="timduru/platform-external-libpng"   revision="aosp-5.1_buildfix" remote="github" />
-  <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="timduru/platform-packages-apps-launcher3"  revision="katkiss-5.1" remote="github"/>
   <remove-project name="platform/system/netd" />
   <project path="system/netd" name="timduru/platform-system-netd"  revision="katkiss-5.1" remote="github"/>
 -->
