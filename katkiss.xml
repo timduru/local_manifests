@@ -57,7 +57,7 @@
   <remove-project name="platform/system/vold" />
   <project path="system/vold" name="timduru/platform-system-vold"  revision="katkiss-6.0" remote="github"/>
   <remove-project name="platform/system/bt" />
-  <project path="system/bt" name="timduru/platform-system-bt"  revision="katkiss-6.0" remote="github"/>
+  <project path="system/bt" name="timduru/platform_system_bt"  revision="katkiss-6.0" remote="github"/>
 
 <!--  <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="timduru/platform-hardware-libhardware"  revision="katkiss-5.0" remote="github" /> -->
@@ -163,4 +163,8 @@
 
   <remove-project name="device/lge/hammerhead-kernel" />
   <remove-project name="device/moto/shamu-kernel" />
+  <remove-project name="device/asus/fugu-kernel" />
+  <remove-project name="device/asus/flo-kernel" />
+  <remove-project name="device/htc/flounder-kernel" />
+  <remove-project name="platform/prebuilts/android-emulator" />
    </manifest>
