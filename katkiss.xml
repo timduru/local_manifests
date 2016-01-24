@@ -92,7 +92,7 @@
   <project path="system/extras" name="timduru/platform-system-extras"  revision="cm-10.2_katkiss-6.0" remote="github"/>
 
 
-  <project path="external/exfat" name="timduru/platform-external-exfat"  revision="katkiss-5.0" remote="github" />
+  <project path="external/exfat" name="timduru/platform-external-exfat"  revision="katkiss-6.0" remote="github" />
   <project path="external/fuse" name="timduru/platform-external-fuse"  revision="katkiss-5.0" remote="github" />
   <project path="external/thtt" name="timduru/platform-external-thtt"  revision="katkiss-5.0" remote="github"/>
   <project path="external/busybox" name="timduru/platform-external-busybox"  revision="katkiss-6.0" remote="github"/>
