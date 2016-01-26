@@ -52,7 +52,10 @@
   <project path="frameworks/ex" name="timduru/platform-frameworks-ex" revision="katkiss-6.0" remote="github"/>
 
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="timduru/platform-frameworks-av" revision="katkiss-6.0"  remote="github"/>
+  <project path="frameworks/av" name="timduru/platform-frameworks-av" revision="katkiss-6.0_c"  remote="github"/>
+
+  <remove-project name="platform/system/media" />
+  <project path="system/media" name="timduru/platform-system-media"  revision="katkiss-6.0" remote="github"/>
 
   <remove-project name="platform/system/vold" />
   <project path="system/vold" name="timduru/platform-system-vold"  revision="katkiss-6.0" remote="github"/>
@@ -96,6 +99,8 @@
   <project path="external/fuse" name="timduru/platform-external-fuse"  revision="katkiss-5.0" remote="github" />
   <project path="external/thtt" name="timduru/platform-external-thtt"  revision="katkiss-5.0" remote="github"/>
   <project path="external/busybox" name="timduru/platform-external-busybox"  revision="katkiss-6.0" remote="github"/>
+  <project path="external/ffmpeg" name="timduru/android_external_ffmpeg"  revision="katkiss-6.0_c" remote="github"/>
+  <project path="external/stagefright-plugins" name="timduru/android_external_stagefright-plugins"  revision="katkiss-6.0_c" remote="github"/>
 <!--  
   <project path="packages/apps/Trebuchet" name="timduru/android-packages-apps-Trebuchet" revision="cm-11.0_katkiss-4.4" remote="github"/>
   <project path="external/powertop" name="timduru/platform-external-powertop"   revision="katkiss-4.4" remote="github"/>
