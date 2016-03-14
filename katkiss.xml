@@ -17,6 +17,10 @@
   <remove-project name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/Gallery2" name="timduru/platform-packages-apps-Gallery2"  revision="katkiss-6.0" remote="github" />
 
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/DeskClock" name="timduru/platform-packages-apps-DeskClock"  revision="katkiss-6.0" remote="github" />
+
+
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Launcher3" name="timduru/platform-packages-apps-launcher3"  revision="katkiss-6.0" remote="github" />
 
