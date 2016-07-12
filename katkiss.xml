@@ -178,4 +178,5 @@
   <remove-project name="device/asus/flo-kernel" />
   <remove-project name="device/htc/flounder-kernel" />
   <remove-project name="platform/prebuilts/android-emulator" />
+  <remove-project name="platform/external/javasqlite" />
    </manifest>
