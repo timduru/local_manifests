@@ -122,6 +122,8 @@
   <project path="device/asus/tf300t" name="timduru/android_device_asus_tf300t" revision="katkiss-6.0" remote="github"/>
 
   <project path="external/stlport" name="platform/external/stlport" revision="android-5.1.1_r30" />
+  <remove-project name="platform/external/sqlite" />
+  <project path="external/sqlite" name="timduru/external_sqlite" remote="github" revision="katkiss-6.0" />
 
 <!--  <project path="vendor/tmobile/apps/ThemeChooser" name="timduru/platform-vendor-tmobile-apps-ThemeChooser"  revision="eos-4.2.2" remote="github"/>
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="timduru/platform-vendor-tmobile-libs-com.tmobile.themes"  revision="eos-4.2.2" remote="github"/>
