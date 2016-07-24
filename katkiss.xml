@@ -1,184 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
-   <manifest>
+<manifest>
 
-
-  <remote   name="github"
-            fetch="https://github.com/" />
+  <remote  name="github"
+           fetch="https://github.com/" />
 
   <remove-project name="platform/build" />
   <project path="build" name="timduru/platform-build" revision="aosp-6.0_katkiss-6.0" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="timduru/platform-frameworks-base" revision="katkiss-6.0" remote="github"/>
-  <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="timduru/platform-packages-apps-Settings"  revision="katkiss-6.0" remote="github" />
-  <remove-project name="platform/packages/apps/Gallery2" />
-  <project path="packages/apps/Gallery2" name="timduru/platform-packages-apps-Gallery2"  revision="katkiss-6.0" remote="github" />
-
-  <remove-project name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/DeskClock" name="timduru/platform-packages-apps-DeskClock"  revision="katkiss-6.0" remote="github" />
-
-
-  <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="timduru/platform-packages-apps-launcher3"  revision="katkiss-6.0" remote="github" />
+<!-- Katkiss Rom Replacements-->
 
   <remove-project name="platform/art" />
-  <project path="art" name="timduru/platform_art"  revision="katkiss-6.0" remote="github"/>
-
-
+         <project path="art" name="timduru/platform_art"  revision="katkiss-6.0" remote="github"/>
   <remove-project name="platform/bionic" />
-  <project path="bionic" name="timduru/platform-bionic"  revision="aosp-6.0_katkiss-6.0" remote="github" />
+         <project path="bionic" name="timduru/platform-bionic"  revision="aosp-6.0_katkiss-6.0" remote="github" />
   <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="timduru/platform-bootable-recovery" revision="katkiss-6.0" remote="github" />
+         <project path="bootable/recovery" name="timduru/platform-bootable-recovery" revision="katkiss-6.0" remote="github" />
   <remove-project name="platform/dalvik" />
-  <project path="dalvik" name="timduru/platform-dalvik" revision="katkiss-6.0" remote="github" />
+         <project path="dalvik" name="timduru/platform-dalvik" revision="katkiss-6.0" remote="github" />
   <remove-project name="platform/external/e2fsprogs" />
-  <project path="external/e2fsprogs" name="timduru/platform-external-e2fsprogs"  revision="katkiss-6.0" remote="github" />
-<!--  <remove-project name="platform/external/kernel-headers" />
-  <project path="external/kernel-headers" name="timduru/platform-external-kernel-headers"  revision="katkiss-5.0" remote="github" />
--->
-  <remove-project name="platform/libcore" />
-  <project path="libcore" name="timduru/platform-libcore" revision="aosp-6.0_buildfix" remote="github"/>
+         <project path="external/e2fsprogs" name="timduru/platform-external-e2fsprogs"  revision="katkiss-6.0" remote="github" />
   <remove-project name="platform/external/skia" />
-  <project path="external/skia" name="timduru/platform-external-skia"  revision="katkiss-6.0" remote="github" />
-
-  <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="timduru/platform-frameworks-native" revision="katkiss-6.0" remote="github"/>
-
-  <remove-project name="platform/frameworks/opt/net/wifi" />
-  <project path="frameworks/opt/net/wifi" name="timduru/platform-frameworks-opt-net-wifi" revision="katkiss-6.0" remote="github" />
-
-  <remove-project name="platform/frameworks/wilhelm" />
-  <project path="frameworks/wilhelm" name="timduru/platform-frameworks-wilhelm" revision="aosp-6.0_buildfix" remote="github"/>
-  <remove-project name="platform/frameworks/ex" />
-  <project path="frameworks/ex" name="timduru/platform-frameworks-ex" revision="katkiss-6.0" remote="github"/>
-
+         <project path="external/skia" name="timduru/platform-external-skia"  revision="katkiss-6.0" remote="github" />
+  <remove-project name="platform/external/sqlite" />
+         <project path="external/sqlite" name="timduru/external_sqlite" remote="github" revision="katkiss-6.0" />
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="timduru/platform-frameworks-av" revision="katkiss-6.0_c"  remote="github"/>
-
-  <remove-project name="platform/system/media" />
-  <project path="system/media" name="timduru/platform-system-media"  revision="katkiss-6.0" remote="github"/>
-
-  <remove-project name="platform/system/vold" />
-  <project path="system/vold" name="timduru/platform-system-vold"  revision="katkiss-6.0" remote="github"/>
-  <remove-project name="platform/system/bt" />
-  <project path="system/bt" name="timduru/platform_system_bt"  revision="katkiss-6.0" remote="github"/>
-
-<!--  <remove-project name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware" name="timduru/platform-hardware-libhardware"  revision="katkiss-5.0" remote="github" /> -->
-<!--  <remove-project name="platform/external/bluetooth/bluedroid" />
-  <project path="external/bluetooth/bluedroid" name="timduru/android-external-bluetooth-bluedroid" revision="katkiss-5.1" remote="github"/> -->
-
-<!--
-  <project path="hardware/libhardware_legacy" name="timduru/platform-hardware-libhardware_legacy"  revision="katkiss-4.4" remote="github" />
-
-  <project path="external/f2fs-tools" name="timduru/android_external_f2fs-tools"  revision="katkiss-4.4" remote="github" />
-  <project path="external/webp" name="timduru/platform_external_webp" revision="chromium_katkiss-4.4" remote="github"/>
-  <project path="frameworks/opt/vcard" name="timduru/platform-frameworks-opt-vcard" revision="cm-11.0" remote="github"/>
-  <project path="frameworks/rs" name="timduru/platform-frameworks-rs"   revision="katkiss-4.4_tempfix" remote="github" />
-  <project path="hardware/samsung" name="timduru/platform-hardware-samsung" revision="eos-4.2.2" remote="github" />
-  <project path="packages/apps/Bluetooth" name="timduru/platform-packages-apps-Bluetooth"  revision="omni-KatKiss-4.4" remote="github" />
-  <project path="packages/providers/DownloadProvider" name="timduru/platform-packages-providers-DownloadProvider" revision="katkiss-4.4" remote="github" />
-  <project path="external/libnl" name="timduru/platform-external-libnl"   revision="katkiss-4.3" remote="github"/>
--->
-
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <project path="packages/inputmethods/LatinIME" name="timduru/platform-packages-inputmethods-LatinIME"   revision="katkiss-6.0" remote="github" />
-
-  <remove-project name="platform/packages/providers/MediaProvider" />
-  <project path="packages/providers/MediaProvider" name="timduru/platform-packages-providers-MediaProvider"  revision="katkiss-6.0" remote="github" />
+         <project path="frameworks/av" name="timduru/platform-frameworks-av" revision="katkiss-6.0_c"  remote="github"/>
+  <remove-project name="platform/frameworks/base" />
+         <project path="frameworks/base" name="timduru/platform-frameworks-base" revision="katkiss-6.0" remote="github"/>
+  <remove-project name="platform/frameworks/ex" />
+         <project path="frameworks/ex" name="timduru/platform-frameworks-ex" revision="katkiss-6.0" remote="github"/>   
+  <remove-project name="platform/frameworks/native" />
+         <project path="frameworks/native" name="timduru/platform-frameworks-native" revision="katkiss-6.0" remote="github"/>
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+         <project path="frameworks/opt/net/wifi" name="timduru/platform-frameworks-opt-net-wifi" revision="katkiss-6.0" remote="github" />
+  <remove-project name="platform/frameworks/wilhelm" />
+         <project path="frameworks/wilhelm" name="timduru/platform-frameworks-wilhelm" revision="aosp-6.0_buildfix" remote="github"/>   
   <remove-project name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/broadcom/wlan" name="timduru/platform-hardware-broadcom-wlan"  revision="katkiss-6.0" remote="github" />
+         <project path="hardware/broadcom/wlan" name="timduru/platform-hardware-broadcom-wlan"  revision="katkiss-6.0" remote="github" />
+  <remove-project name="platform/libcore" />
+         <project path="libcore" name="timduru/platform-libcore" revision="aosp-6.0_buildfix" remote="github"/>  
   <remove-project name="platform/packages/apps/Browser" />
-  <project path="packages/apps/Browser" name="timduru/platform-packages-apps-browser"  revision="katkiss-6.0" remote="github"/>
+         <project path="packages/apps/Browser" name="timduru/platform-packages-apps-browser"  revision="katkiss-6.0" remote="github"/>
+  <remove-project name="platform/packages/apps/DeskClock" /> 
+         <project path="packages/apps/DeskClock" name="timduru/platform-packages-apps-DeskClock"  revision="katkiss-6.0" remote="github" />  
+  <remove-project name="platform/packages/apps/Gallery2" />
+         <project path="packages/apps/Gallery2" name="timduru/platform-packages-apps-Gallery2"  revision="katkiss-6.0" remote="github" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+         <project path="packages/apps/Launcher3" name="timduru/platform-packages-apps-launcher3"  revision="katkiss-6.0" remote="github" />
+  <remove-project name="platform/packages/apps/Settings" />
+         <project path="packages/apps/Settings" name="timduru/platform-packages-apps-Settings"  revision="katkiss-6.0" remote="github" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+         <project path="packages/inputmethods/LatinIME" name="timduru/platform-packages-inputmethods-LatinIME"   revision="katkiss-6.0" remote="github" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+         <project path="packages/providers/MediaProvider" name="timduru/platform-packages-providers-MediaProvider"  revision="katkiss-6.0" remote="github" />
+  <remove-project name="platform/system/bt" />
+         <project path="system/bt" name="timduru/platform_system_bt"  revision="katkiss-6.0" remote="github"/>   
   <remove-project name="platform/system/core" />
-  <project path="system/core" name="timduru/android-system-core"  revision="o-katkiss-6.0-tmpfix" remote="github"/>
+         <project path="system/core" name="timduru/android-system-core"  revision="o-katkiss-6.0-tmpfix" remote="github"/>   
   <remove-project name="platform/system/extras" />
-  <project path="system/extras" name="timduru/platform-system-extras"  revision="cm-10.2_katkiss-6.0" remote="github"/>
+         <project path="system/extras" name="timduru/platform-system-extras"  revision="cm-10.2_katkiss-6.0" remote="github"/>   
+  <remove-project name="platform/system/media" />
+         <project path="system/media" name="timduru/platform-system-media"  revision="katkiss-6.0" remote="github"/>
+  <remove-project name="platform/system/vold" />
+         <project path="system/vold" name="timduru/platform-system-vold"  revision="katkiss-6.0" remote="github"/>
 
+<!-- Katkiss Rom Additions-->
 
-  <project path="external/exfat" name="timduru/platform-external-exfat"  revision="katkiss-6.0" remote="github" />
-  <project path="external/fuse" name="timduru/platform-external-fuse"  revision="katkiss-5.0" remote="github" />
-  <project path="external/thtt" name="timduru/platform-external-thtt"  revision="katkiss-5.0" remote="github"/>
   <project path="external/busybox" name="timduru/platform-external-busybox"  revision="katkiss-6.0" remote="github"/>
+  <project path="external/exfat" name="timduru/platform-external-exfat"  revision="katkiss-6.0" remote="github" />
   <project path="external/ffmpeg" name="timduru/android_external_ffmpeg"  revision="katkiss-6.0_c" remote="github"/>
-  <project path="external/stagefright-plugins" name="timduru/android_external_stagefright-plugins"  revision="katkiss-6.0_c" remote="github"/>
-<!--  
-  <project path="packages/apps/Trebuchet" name="timduru/android-packages-apps-Trebuchet" revision="cm-11.0_katkiss-4.4" remote="github"/>
-  <project path="external/powertop" name="timduru/platform-external-powertop"   revision="katkiss-4.4" remote="github"/>
-  <project path="external/iw" name="timduru/platform-external-iw"  revision="katkiss-4.3" remote="github"/>
-  <project path="external/iwmulticall" name="timduru/platform-external-iwmulticall"   revision="katkiss-4.3" remote="github"/> -->
+  <project path="external/fuse" name="timduru/platform-external-fuse"  revision="katkiss-5.0" remote="github" />
   <project path="external/ncurses" name="timduru/platform-external-ncurses"  revision="katkiss-4.3" remote="github"/>
   <project path="external/ntfs-3g" name="timduru/platform-external-ntfs-3g"  revision="katkiss-6.0" remote="github"/>
-
-  <project path="vendor/kat" name="timduru/platform-vendor-kat"  revision="katkiss-6.0" remote="github"/>
-  <project path="vendor/sm" name="timduru/platform-vendor-sm"  revision="katkiss-5.1" remote="github"/>
+  <project path="external/stagefright-plugins" name="timduru/android_external_stagefright-plugins"  revision="katkiss-6.0_c" remote="github"/>
+  <project path="external/stlport" name="platform/external/stlport" revision="refs/tags/android-5.1.1_r30" remote="aosp" />
+  <project path="external/thtt" name="timduru/platform-external-thtt"  revision="katkiss-5.0" remote="github"/>
   <project path="vendor/asus" name="timduru/platform-vendor-asus"  revision="eos-4.2.2" remote="github"/>
+  <project path="vendor/kat" name="timduru/platform-vendor-kat"  revision="katkiss-6.0" remote="github"/>
   <project path="vendor/widevine" name="timduru/platform-vendor-widevine"  revision="katkiss-4.4" remote="github"/>
-  <project path="kernel/asus/tf101" name="timduru/kernel-asus-tf101" revision="eos-4.2.2" remote="github"/>
+
+<!-- TF101 -->
+
   <project path="device/asus/tf101" name="timduru/device_asus_tf101" revision="katkiss-6.0" remote="github"/>
+  <project path="kernel/asus/tf101" name="timduru/kernel-asus-tf101" revision="eos-4.2.2" remote="github"/>
+
+<!-- TF201 -->
+
+
+<!-- TF300T -->
+
   <project path="device/asus/tf300t" name="timduru/android_device_asus_tf300t" revision="katkiss-6.0" remote="github"/>
 
-  <project path="external/stlport" name="platform/external/stlport" revision="refs/tags/android-5.1.1_r30" remote="aosp" />
-  <remove-project name="platform/external/sqlite" />
-  <project path="external/sqlite" name="timduru/external_sqlite" remote="github" revision="katkiss-6.0" />
+<!-- TF700T -->
 
-<!--  <project path="vendor/tmobile/apps/ThemeChooser" name="timduru/platform-vendor-tmobile-apps-ThemeChooser"  revision="eos-4.2.2" remote="github"/>
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="timduru/platform-vendor-tmobile-libs-com.tmobile.themes"  revision="eos-4.2.2" remote="github"/>
-  <project path="vendor/tmobile/providers/ThemeManager" name="timduru/platform-vendor-tmobile-providers-ThemeManager"  revision="eos-4.2.2" remote="github"/> -->
+  <project path="kernel/asus/tf300" name="timduru/tf300t-katkernel" revision="dev-tf700t" remote="github"/>
+
+<!-- toolchains -->
 
   <project path="prebuilts/gcc/linux-x86/arm/linaro-4.7" name="timduru/platform-prebuilts-gcc-linux-x86-arm-linaro-4.7" groups="linux,arm"   revision="katkiss-4.3" remote="github" />
-<!--  <project path="prebuilts/gcc/linux-x86/arm/linaro-4.8" name="timduru/prebuilts-gcc-linux-x86-arm-linaro-4.8" remote="github" revision="linaro-4.8" groups="linux,arm" /> -->
+  <project path="vendor/sm" name="timduru/platform-vendor-sm"  revision="katkiss-5.1" remote="github"/>
 
-<!--
-  <project path="external/chromium" name="timduru/platform_external_chromium"  revision="aosp4.4_buildfix" remote="github"/>
-  <project path="external/chromium-libpac" name="timduru/platform_external_chromium-libpac" revision="aosp4.4_buildfix" remote="github"/>
-  <project path="external/chromium_org" name="timduru/platform-external-chromium_org" revision="aosp-4.4_buildfix" remote="github" />
-  <project path="external/chromium_org/third_party/WebKit" name="timduru/platform-external-chromium_org-third_party-WebKit"  revision="aosp4.4.4_buildfix" remote="github"/>
-  <project path="external/compiler-rt" name="timduru/platform-external-compiler-rt"  revision="aosp4.4_buildfix" remote="github"/>
-  <project path="external/dnsmasq" name="timduru/platform_external_dnsmasq"  revision="aosp4.4_buildfix" remote="github"/>
-  <project path="external/iputils" name="timduru/platform_external_iputils"  revision="aosp4.4_buildfix" remote="github"/>
-  <project path="external/llvm" name="timduru/platform_external_llvm"  revision="aosp4.4_buildfix" remote="github"/>
-  <project path="external/openssh" name="timduru/platform-external-openssh"  revision="aosp4.4_buildfix" remote="github"/>
-  <project path="external/openssl" name="timduru/platform-external-openssl"  revision="aosp4.4_buildfix" remote="github"/>
-  <project path="external/oprofile" name="timduru/platform_external_oprofile"   revision="aosp4.4_buildfix" remote="github"/>
-  <project path="external/stlport" name="timduru/android_external_stlport"  revision="aosp4.4_buildfix" remote="github"/>
-  <project path="external/tcpdump" name="timduru/platform_external_tcpdump" revision="aosp4.4_buildfix" remote="github"/>
-  <project path="external/v8" name="timduru/platform_external_v8"  revision="aosp4.4_buildfix" remote="github"/>
-  <project path="frameworks/ex" name="timduru/platform_frameworks_ex" revision="aosp4.4_buildfix" remote="github"/>
-  <project path="frameworks/opt/net/voip" name="timduru/platform_frameworks_opt_net_voip" revision="aosp4.4_buildfix" remote="github"/>
-  <project path="frameworks/wilhelm" name="timduru/platform_frameworks_wilhelm"  revision="aosp4.4_buildfix" remote="github"/>
-  <project path="hardware/ril" name="timduru/platform_hardware_ril" revision="aosp4.4_buildfix" remote="github"/>
-  <project path="packages/apps/Camera2" name="timduru/platform_packages_apps_Camera2"  revision="aosp4.4_buildfix" remote="github"/>
-  <project path="device/generic/armv7-a" name="device/generic/armv7-a"  revision="jb-mr1.1-release" />
+<!-- clean out junk -->
 
-
--->
-
-<!--
-6.0 rm
-  <remove-project name="platform/packages/apps/Email" />
-  <project path="packages/apps/Email" name="timduru/platform-packages-apps-Email"  revision="katkiss-5.1" remote="github" />
-  <remove-project name="platform/packages/apps/UnifiedEmail" />
-  <project path="packages/apps/UnifiedEmail" name="timduru/platform-packages-apps-UnifiedEmail"  revision="katkiss-5.1" remote="github" />
-  <remove-project name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/Contacts" name="timduru/platform-packages-apps-Contacts"  revision="katkiss-5.1" remote="github" />
-  <remove-project name="platform/packages/apps/ContactsCommon" />
-  <project path="packages/apps/ContactsCommon" name="timduru/platform-packages-apps-ContactsCommon"  revision="katkiss-5.1" remote="github" />
-  <remove-project name="platform/external/libpng" />
-  <project path="external/libpng" name="timduru/platform-external-libpng"   revision="aosp-5.1_buildfix" remote="github" />
-  <remove-project name="platform/system/netd" />
-  <project path="system/netd" name="timduru/platform-system-netd"  revision="katkiss-5.1" remote="github"/>
--->
-
-
+  <remove-project name="device/asus/flo-kernel" />
+  <remove-project name="device/asus/fugu-kernel" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-mips" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/mips" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google/accessory/arduino" />
+  <remove-project name="device/google/accessory/demokit" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/htc/flounder-kernel" />
   <remove-project name="device/lge/hammerhead-kernel" />
   <remove-project name="device/moto/shamu-kernel" />
-  <remove-project name="device/asus/fugu-kernel" />
-  <remove-project name="device/asus/flo-kernel" />
-  <remove-project name="device/htc/flounder-kernel" />
-  <remove-project name="platform/prebuilts/android-emulator" />
+  <remove-project name="platform/developers/build" />
+  <remove-project name="platform/developers/demos" />
+  <remove-project name="platform/developers/docs" />
+  <remove-project name="platform/developers/samples/android" />
+  <remove-project name="platform/external/eclipse-basebuilder" />
+  <remove-project name="platform/external/eclipse-windowbuilder" />
   <remove-project name="platform/external/javasqlite" />
-   </manifest>
+  <remove-project name="platform/hardware/intel/audio_media" />
+  <remove-project name="platform/hardware/intel/bootstub" />
+  <remove-project name="platform/hardware/intel/common/bd_prov" />
+  <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+  <remove-project name="platform/hardware/intel/common/utils" />
+  <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+  <remove-project name="platform/hardware/intel/sensors" />
+  <remove-project name="platform/hardware/marvell/bt" />
+  <remove-project name="platform/hardware/mediatek" />
+  <remove-project name="platform/hardware/qcom/msm8994" />
+  <remove-project name="platform/hardware/qcom/msm8x26" />
+  <remove-project name="platform/hardware/qcom/msm8x27" />
+  <remove-project name="platform/hardware/qcom/msm8x74" />
+  <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/packages/screensavers/Basic" />
+  <remove-project name="platform/packages/screensavers/PhotoTable" />
+  <remove-project name="platform/packages/wallpapers/Basic" />
+  <remove-project name="platform/packages/wallpapers/Galaxy4" />
+  <remove-project name="platform/packages/wallpapers/HoloSpiral" />
+  <remove-project name="platform/packages/wallpapers/MagicSmoke" />
+  <remove-project name="platform/packages/wallpapers/NoiseField" />
+  <remove-project name="platform/packages/wallpapers/PhaseBeam" />
+  <remove-project name="platform/platform_testing" />
+  <remove-project name="platform/prebuilts/android-emulator" /> 
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
+  <remove-project name="platform/prebuilts/devtools" />
+  <remove-project name="platform/prebuilts/eclipse" />
+  <remove-project name="platform/prebuilts/eclipse-build-deps" />
+  <remove-project name="platform/prebuilts/eclipse-build-deps-sources" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+  <remove-project name="platform/tools/adt/eclipse" />
+  <remove-project name="platform/tools/adt/idea" />
+  
+</manifest>
