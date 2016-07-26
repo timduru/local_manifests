@@ -5,7 +5,7 @@
            fetch="https://github.com/" />
 
   <remove-project name="platform/build" />
-  <project path="build" name="timduru/platform-build" revision="aosp-6.0_katkiss-6.0" remote="github" >
+  <project path="build" name="timduru/platform-build" revision="katkiss-6.0_uber" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -84,7 +84,7 @@
 <!-- TF101 -->
 
   <project path="device/asus/tf101" name="timduru/device_asus_tf101" revision="katkiss-6.0" remote="github"/>
-  <project path="kernel/asus/tf101" name="timduru/kernel-asus-tf101" revision="eos-4.2.2" remote="github"/>
+  <project path="kernel/asus/tf101" name="timduru/tf101-katkernel" revision="dev" remote="github"/>
 
 <!-- TF201 -->
 
@@ -92,20 +92,19 @@
 <!-- TF300T -->
 
   <project path="device/asus/tf300t" name="timduru/android_device_asus_tf300t" revision="katkiss-6.0" remote="github"/>
+  <project path="kernel/asus/tf300t" name="timduru/tf300t-katkernel" revision="dev-tf300t" remote="github"/>
 
 <!-- TF700T -->
 
-  <project path="kernel/asus/tf300" name="timduru/tf300t-katkernel" revision="dev-tf700t" remote="github"/>
+  <project path="kernel/asus/tf700t" name="timduru/tf300t-katkernel" revision="dev-tf700t" remote="github"/>
 
 <!-- toolchains -->
-
-  <project path="prebuilts/gcc/linux-x86/arm/linaro-4.7" name="timduru/platform-prebuilts-gcc-linux-x86-arm-linaro-4.7" groups="linux,arm"   revision="katkiss-4.3" remote="github" />
+<!-- uber TC to be placed into prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.4 -->
   <project path="vendor/sm" name="timduru/platform-vendor-sm"  revision="katkiss-5.1" remote="github"/>
+
 
 <!-- clean out junk -->
 
-  <remove-project name="device/asus/flo-kernel" />
-  <remove-project name="device/asus/fugu-kernel" />
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
@@ -118,21 +117,12 @@
   <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/accessory/arduino" />
   <remove-project name="device/google/accessory/demokit" />
-  <remove-project name="device/google/atv" />
-  <remove-project name="device/htc/flounder-kernel" />
-  <remove-project name="device/lge/hammerhead-kernel" />
-  <remove-project name="device/moto/shamu-kernel" />
-  <remove-project name="platform/developers/build" />
-  <remove-project name="platform/developers/demos" />
-  <remove-project name="platform/developers/docs" />
-  <remove-project name="platform/developers/samples/android" />
   <remove-project name="platform/external/eclipse-basebuilder" />
   <remove-project name="platform/external/eclipse-windowbuilder" />
   <remove-project name="platform/external/javasqlite" />
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
   <remove-project name="platform/hardware/intel/common/bd_prov" />
-  <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
   <remove-project name="platform/hardware/intel/common/utils" />
   <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
   <remove-project name="platform/hardware/intel/sensors" />
@@ -145,19 +135,9 @@
   <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
-  <remove-project name="platform/packages/wallpapers/Basic" />
-  <remove-project name="platform/packages/wallpapers/Galaxy4" />
-  <remove-project name="platform/packages/wallpapers/HoloSpiral" />
-  <remove-project name="platform/packages/wallpapers/MagicSmoke" />
-  <remove-project name="platform/packages/wallpapers/NoiseField" />
-  <remove-project name="platform/packages/wallpapers/PhaseBeam" />
-  <remove-project name="platform/platform_testing" />
   <remove-project name="platform/prebuilts/android-emulator" /> 
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
   <remove-project name="platform/prebuilts/devtools" />
-  <remove-project name="platform/prebuilts/eclipse" />
-  <remove-project name="platform/prebuilts/eclipse-build-deps" />
-  <remove-project name="platform/prebuilts/eclipse-build-deps-sources" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
@@ -166,12 +146,71 @@
   <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
-  <remove-project name="platform/tools/adt/eclipse" />
-  <remove-project name="platform/tools/adt/idea" />
-  
+ 
+ 
+<!-- Katkiss 6.0 rollback tocheck -->
+<!--
+  <remove-project name="platform/packages/apps/Email" />
+  <project path="packages/apps/Email" name="timduru/platform-packages-apps-Email"  revision="katkiss-5.1" remote="github" />
+  <remove-project name="platform/packages/apps/UnifiedEmail" />
+  <project path="packages/apps/UnifiedEmail" name="timduru/platform-packages-apps-UnifiedEmail"  revision="katkiss-5.1" remote="github" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="timduru/platform-packages-apps-Contacts"  revision="katkiss-5.1" remote="github" />
+  <remove-project name="platform/packages/apps/ContactsCommon" />
+  <project path="packages/apps/ContactsCommon" name="timduru/platform-packages-apps-ContactsCommon"  revision="katkiss-5.1" remote="github" />
+  <remove-project name="platform/external/libpng" />
+  <project path="external/libpng" name="timduru/platform-external-libpng"   revision="aosp-5.1_buildfix" remote="github" />
+  <remove-project name="platform/system/netd" />
+  <project path="system/netd" name="timduru/platform-system-netd"  revision="katkiss-5.1" remote="github"/>
+-->
+
+
+<!-- Katkiss 5.x and older specific additions and fixes as reference-->
+<!--  
+  <remove-project name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="timduru/platform-hardware-libhardware"  revision="katkiss-5.0" remote="github" />
+  <remove-project name="platform/external/bluetooth/bluedroid" />
+  <project path="external/bluetooth/bluedroid" name="timduru/android-external-bluetooth-bluedroid" revision="katkiss-5.1" remote="github"/>
+
+
+  <project path="hardware/libhardware_legacy" name="timduru/platform-hardware-libhardware_legacy"  revision="katkiss-4.4" remote="github" />
+
+  <project path="external/f2fs-tools" name="timduru/android_external_f2fs-tools"  revision="katkiss-4.4" remote="github" />
+  <project path="external/webp" name="timduru/platform_external_webp" revision="chromium_katkiss-4.4" remote="github"/>
+  <project path="frameworks/opt/vcard" name="timduru/platform-frameworks-opt-vcard" revision="cm-11.0" remote="github"/>
+  <project path="frameworks/rs" name="timduru/platform-frameworks-rs"   revision="katkiss-4.4_tempfix" remote="github" />
+  <project path="packages/apps/Bluetooth" name="timduru/platform-packages-apps-Bluetooth"  revision="omni-KatKiss-4.4" remote="github" />
+  <project path="packages/providers/DownloadProvider" name="timduru/platform-packages-providers-DownloadProvider" revision="katkiss-4.4" remote="github" />
+  <project path="external/libnl" name="timduru/platform-external-libnl"   revision="katkiss-4.3" remote="github"/>
+
+  <project path="packages/apps/Trebuchet" name="timduru/android-packages-apps-Trebuchet" revision="cm-11.0_katkiss-4.4" remote="github"/>
+  <project path="external/powertop" name="timduru/platform-external-powertop"   revision="katkiss-4.4" remote="github"/>
+  <project path="external/iw" name="timduru/platform-external-iw"  revision="katkiss-4.3" remote="github"/>
+  <project path="external/iwmulticall" name="timduru/platform-external-iwmulticall"   revision="katkiss-4.3" remote="github"/>
+
+  <project path="external/chromium" name="timduru/platform_external_chromium"  revision="aosp4.4_buildfix" remote="github"/>
+  <project path="external/chromium-libpac" name="timduru/platform_external_chromium-libpac" revision="aosp4.4_buildfix" remote="github"/>
+  <project path="external/chromium_org" name="timduru/platform-external-chromium_org" revision="aosp-4.4_buildfix" remote="github" />
+  <project path="external/chromium_org/third_party/WebKit" name="timduru/platform-external-chromium_org-third_party-WebKit"  revision="aosp4.4.4_buildfix" remote="github"/>
+  <project path="external/compiler-rt" name="timduru/platform-external-compiler-rt"  revision="aosp4.4_buildfix" remote="github"/>
+  <project path="external/dnsmasq" name="timduru/platform_external_dnsmasq"  revision="aosp4.4_buildfix" remote="github"/>
+  <project path="external/iputils" name="timduru/platform_external_iputils"  revision="aosp4.4_buildfix" remote="github"/>
+  <project path="external/llvm" name="timduru/platform_external_llvm"  revision="aosp4.4_buildfix" remote="github"/>
+  <project path="external/openssh" name="timduru/platform-external-openssh"  revision="aosp4.4_buildfix" remote="github"/>
+  <project path="external/openssl" name="timduru/platform-external-openssl"  revision="aosp4.4_buildfix" remote="github"/>
+  <project path="external/oprofile" name="timduru/platform_external_oprofile"   revision="aosp4.4_buildfix" remote="github"/>
+  <project path="external/stlport" name="timduru/android_external_stlport"  revision="aosp4.4_buildfix" remote="github"/>
+  <project path="external/tcpdump" name="timduru/platform_external_tcpdump" revision="aosp4.4_buildfix" remote="github"/>
+  <project path="external/v8" name="timduru/platform_external_v8"  revision="aosp4.4_buildfix" remote="github"/>
+  <project path="frameworks/ex" name="timduru/platform_frameworks_ex" revision="aosp4.4_buildfix" remote="github"/>
+  <project path="frameworks/opt/net/voip" name="timduru/platform_frameworks_opt_net_voip" revision="aosp4.4_buildfix" remote="github"/>
+  <project path="frameworks/wilhelm" name="timduru/platform_frameworks_wilhelm"  revision="aosp4.4_buildfix" remote="github"/>
+  <project path="hardware/ril" name="timduru/platform_hardware_ril" revision="aosp4.4_buildfix" remote="github"/>
+  <project path="packages/apps/Camera2" name="timduru/platform_packages_apps_Camera2"  revision="aosp4.4_buildfix" remote="github"/>
+  <project path="device/generic/armv7-a" name="device/generic/armv7-a"  revision="jb-mr1.1-release" />
+-->
+
 </manifest>
