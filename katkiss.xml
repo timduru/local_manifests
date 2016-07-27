@@ -87,11 +87,12 @@
   <project path="kernel/asus/tf101" name="timduru/tf101-katkernel" revision="dev" remote="github"/>
 
 <!-- TF201 -->
+  <project path="kernel/asus/tf201" name="timduru/tf300t-katkernel" revision="dev-tf700t" remote="github"/>
 
 
 <!-- TF300T -->
 
-  <project path="device/asus/tf300t" name="timduru/android_device_asus_tf300t" revision="katkiss-6.0" remote="github"/>
+  <project path="device/asus/tf_unified" name="timduru/device_asus_tf_unified" revision="katkiss-6.0" remote="github"/>
   <project path="kernel/asus/tf300t" name="timduru/tf300t-katkernel" revision="dev-tf300t" remote="github"/>
 
 <!-- TF700T -->
