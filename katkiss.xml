@@ -106,6 +106,7 @@
 
 <!-- clean out junk -->
 
+
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
@@ -118,6 +119,8 @@
   <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/accessory/arduino" />
   <remove-project name="device/google/accessory/demokit" />
+  <remove-project name="device/lge/hammerhead-kernel" />
+  <remove-project name="device/moto/shamu-kernel" />
   <remove-project name="platform/external/eclipse-basebuilder" />
   <remove-project name="platform/external/eclipse-windowbuilder" />
   <remove-project name="platform/external/javasqlite" />
