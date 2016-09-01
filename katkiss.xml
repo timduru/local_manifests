@@ -13,24 +13,12 @@
 
 <!--  <remove-project name="platform/art" />
          <project path="art" name="timduru/platform_art"  revision="katkiss-6.0" remote="github"/>
-  <remove-project name="platform/frameworks/base" />
-         <project path="frameworks/base" name="timduru/platform-frameworks-base" revision="katkiss-6.0" remote="github"/>
   <remove-project name="platform/frameworks/opt/net/wifi" />
          <project path="frameworks/opt/net/wifi" name="timduru/platform-frameworks-opt-net-wifi" revision="katkiss-6.0" remote="github" />
   <remove-project name="platform/frameworks/wilhelm" />
          <project path="frameworks/wilhelm" name="timduru/platform-frameworks-wilhelm" revision="aosp-6.0_buildfix" remote="github"/>   
   <remove-project name="platform/libcore" />
          <project path="libcore" name="timduru/platform-libcore" revision="aosp-6.0_buildfix" remote="github"/>  
-  <remove-project name="platform/packages/apps/Settings" />
-         <project path="packages/apps/Settings" name="timduru/platform-packages-apps-Settings"  revision="katkiss-6.0" remote="github" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
-         <project path="packages/providers/MediaProvider" name="timduru/platform-packages-providers-MediaProvider"  revision="katkiss-6.0" remote="github" />
-  <remove-project name="platform/system/bt" />
-         <project path="system/bt" name="timduru/platform_system_bt"  revision="katkiss-6.0" remote="github"/>   
-  <remove-project name="platform/external/sqlite" />
-         <project path="external/sqlite" name="timduru/external_sqlite" remote="github" revision="katkiss-6.0" />
-  <remove-project name="platform/packages/apps/Launcher3" />
-         <project path="packages/apps/Launcher3" name="timduru/platform-packages-apps-launcher3"  revision="katkiss-7.0" remote="github" />
 -->
   <remove-project name="platform/bionic" />
          <project path="bionic" name="timduru/platform-bionic"  revision="katkiss-7.0" remote="github" />
@@ -40,12 +28,16 @@
          <project path="dalvik" name="timduru/platform-dalvik" revision="katkiss-7.0" remote="github" />
   <remove-project name="platform/external/e2fsprogs" />
          <project path="external/e2fsprogs" name="timduru/platform-external-e2fsprogs"  revision="katkiss-7.0" remote="github" />
+  <remove-project name="platform/external/sqlite" />
+         <project path="external/sqlite" name="timduru/external_sqlite" remote="github" revision="katkiss-6.0" />
   <remove-project name="platform/external/skia" />
          <project path="external/skia" name="timduru/platform-external-skia"  revision="katkiss-7.0" remote="github" />
   <remove-project name="platform/frameworks/av" />
          <!--<project path="frameworks/av" name="timduru/platform-frameworks-av" revision="katkiss-6.0_c"  remote="github"/> -->
          <project path="frameworks/av" name="timduru/platform-frameworks-av" revision="aosp-7.0_katkiss-7.0"  remote="github"/>
   <remove-project name="platform/frameworks/ex" />
+  <remove-project name="platform/frameworks/base" />
+         <project path="frameworks/base" name="timduru/platform-frameworks-base" revision="katkiss-7.0" remote="github"/>
          <project path="frameworks/ex" name="timduru/platform-frameworks-ex" revision="katkiss-7.0" remote="github"/>   
   <remove-project name="platform/frameworks/native" />
          <project path="frameworks/native" name="timduru/platform-frameworks-native" revision="katkiss-7.0" remote="github"/>
@@ -56,8 +48,18 @@
          <project path="packages/apps/DeskClock" name="timduru/platform-packages-apps-DeskClock"  revision="katkiss-7.0" remote="github" />  
   <remove-project name="platform/packages/apps/Gallery2" />
          <project path="packages/apps/Gallery2" name="timduru/platform-packages-apps-Gallery2"  revision="katkiss-7.0" remote="github" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+         <project path="packages/apps/Launcher3" name="timduru/platform-packages-apps-launcher3"  revision="katkiss-7.0" remote="github" />
+  <remove-project name="platform/packages/apps/Music" />
+         <project path="packages/apps/Music" name="timduru/platform-packages-apps-Music"  revision="aosp-katkiss-7.0_fix" remote="github" />
+  <remove-project name="platform/packages/apps/Settings" />
+         <project path="packages/apps/Settings" name="timduru/platform-packages-apps-Settings"  revision="katkiss-7.0" remote="github" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
          <project path="packages/inputmethods/LatinIME" name="timduru/platform-packages-inputmethods-LatinIME"   revision="katkiss-7.0" remote="github" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+         <project path="packages/providers/MediaProvider" name="timduru/platform-packages-providers-MediaProvider"  revision="katkiss-7.0" remote="github" />
+  <remove-project name="platform/system/bt" />
+         <project path="system/bt" name="timduru/platform_system_bt"  revision="katkiss-7.0" remote="github"/>   
   <remove-project name="platform/system/core" />
          <project path="system/core" name="timduru/android-system-core"  revision="o6-katkiss-7.0-tmpfix" remote="github"/>   
   <remove-project name="platform/system/extras" />
@@ -91,18 +93,15 @@
   <project path="kernel/asus/tf201" name="timduru/tf300t-katkernel" revision="dev-tf700t" remote="github"/>
 
 
-<!-- TF300T -->
+<!-- TF -->
 
   <project path="device/asus/tf_unified" name="timduru/device_asus_tf_unified" revision="katkiss-6.0" remote="github"/>
   <project path="kernel/asus/tf300t" name="timduru/tf300t-katkernel" revision="dev-tf300t" remote="github"/>
-
-<!-- TF700T -->
-
   <project path="kernel/asus/tf700t" name="timduru/tf300t-katkernel" revision="dev-tf700t" remote="github"/>
 
 <!-- toolchains -->
 <!-- uber TC to be placed into prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.4 -->
-  <project path="vendor/sm" name="timduru/platform-vendor-sm"  revision="katkiss-5.1" remote="github"/>
+<!--  <project path="vendor/sm" name="timduru/platform-vendor-sm"  revision="katkiss-5.1" remote="github"/> -->
 
 
 <!-- clean out junk -->
