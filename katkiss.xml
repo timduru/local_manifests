@@ -33,8 +33,8 @@
   <remove-project name="platform/external/skia" />
          <project path="external/skia" name="timduru/platform-external-skia"  revision="katkiss-7.0" remote="github" />
   <remove-project name="platform/frameworks/av" />
-         <!--<project path="frameworks/av" name="timduru/platform-frameworks-av" revision="katkiss-6.0_c"  remote="github"/> -->
-         <project path="frameworks/av" name="timduru/platform-frameworks-av" revision="aosp-7.0_katkiss-7.0"  remote="github"/>
+         <project path="frameworks/av" name="timduru/platform-frameworks-av" revision="katkiss-7.0_cs"  remote="github"/>
+<!--         <project path="frameworks/av" name="timduru/platform-frameworks-av" revision="aosp-7.0_katkiss-7.0"  remote="github"/> -->
   <remove-project name="platform/frameworks/ex" />
   <remove-project name="platform/frameworks/base" />
          <project path="frameworks/base" name="timduru/platform-frameworks-base" revision="katkiss-7.0" remote="github"/>
