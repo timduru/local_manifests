@@ -71,7 +71,7 @@
 
 <!-- Katkiss Rom Additions-->
 
-<!--  <project path="external/busybox" name="timduru/platform-external-busybox"  revision="katkiss-6.0" remote="github"/> -->
+  <project path="external/busybox" name="timduru/platform-external-busybox"  revision="katkiss-7.0" remote="github"/>
   <project path="external/exfat" name="timduru/platform-external-exfat"  revision="katkiss-6.0" remote="github" />
   <project path="external/ffmpeg" name="timduru/android_external_ffmpeg"  revision="katkiss-6.0_c" remote="github"/>
   <project path="external/fuse" name="timduru/platform-external-fuse"  revision="katkiss-5.0" remote="github" />
