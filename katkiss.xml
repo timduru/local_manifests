@@ -43,7 +43,7 @@
          <project path="frameworks/native" name="timduru/platform-frameworks-native" revision="katkiss-7.0" remote="github"/>
   <remove-project name="platform/hardware/broadcom/wlan" />
          <project path="hardware/broadcom/wlan" name="timduru/platform-hardware-broadcom-wlan"  revision="katkiss-7.0" remote="github" />
-         <project path="packages/apps/Browser" name="timduru/platform-packages-apps-browser"  revision="katkiss-6.0" remote="github"/>
+         <project path="packages/apps/Browser" name="timduru/platform-packages-apps-browser"  revision="katkiss-7.0" remote="github"/>
   <remove-project name="platform/packages/apps/DeskClock" /> 
          <project path="packages/apps/DeskClock" name="timduru/platform-packages-apps-DeskClock"  revision="katkiss-7.0" remote="github" />  
   <remove-project name="platform/packages/apps/Gallery2" />
