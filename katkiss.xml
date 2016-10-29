@@ -15,8 +15,6 @@
          <project path="art" name="timduru/platform_art"  revision="katkiss-6.0" remote="github"/>
   <remove-project name="platform/frameworks/opt/net/wifi" />
          <project path="frameworks/opt/net/wifi" name="timduru/platform-frameworks-opt-net-wifi" revision="katkiss-6.0" remote="github" />
-  <remove-project name="platform/frameworks/wilhelm" />
-         <project path="frameworks/wilhelm" name="timduru/platform-frameworks-wilhelm" revision="aosp-6.0_buildfix" remote="github"/>   
   <remove-project name="platform/libcore" />
          <project path="libcore" name="timduru/platform-libcore" revision="aosp-6.0_buildfix" remote="github"/>  
 -->
@@ -41,6 +39,8 @@
          <project path="frameworks/ex" name="timduru/platform-frameworks-ex" revision="katkiss-7.0" remote="github"/>   
   <remove-project name="platform/frameworks/native" />
          <project path="frameworks/native" name="timduru/platform-frameworks-native" revision="katkiss-7.0" remote="github"/>
+  <remove-project name="platform/frameworks/wilhelm" />
+         <project path="frameworks/wilhelm" name="timduru/platform-frameworks-wilhelm" revision="katkiss-7.0" remote="github"/>   
   <remove-project name="platform/hardware/broadcom/wlan" />
          <project path="hardware/broadcom/wlan" name="timduru/platform-hardware-broadcom-wlan"  revision="katkiss-7.0" remote="github" />
          <project path="packages/apps/Browser" name="timduru/platform-packages-apps-browser"  revision="katkiss-7.0" remote="github"/>
@@ -96,8 +96,9 @@
 <!-- TF -->
 
   <project path="device/asus/tf_unified" name="timduru/device_asus_tf_unified" revision="katkiss-6.0" remote="github"/>
-  <project path="kernel/asus/tf300t" name="timduru/tf300t-katkernel" revision="dev-tf300t" remote="github"/>
+<!--  <project path="kernel/asus/tf300t" name="timduru/tf300t-katkernel" revision="dev-tf300t" remote="github"/>
   <project path="kernel/asus/tf700t" name="timduru/tf300t-katkernel" revision="dev-tf700t" remote="github"/>
+-->
 
 <!-- toolchains -->
 <!-- uber TC to be placed into prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.4 -->
