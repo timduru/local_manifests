@@ -93,6 +93,7 @@
 <!-- TF300T -->
 
   <project path="device/asus/tf_unified" name="timduru/device_asus_tf_unified" revision="katkiss-6.0" remote="github"/>
+  <project path="device/asus/tf701t" name="timduru/device_asus_tf701t" revision="katkiss-6.0" remote="github"/>
   <project path="kernel/asus/tf300t" name="timduru/tf300t-katkernel" revision="dev-tf300t" remote="github"/>
 
 <!-- TF700T -->
@@ -106,6 +107,7 @@
 
 <!-- clean out junk -->
 
+
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
@@ -118,6 +120,8 @@
   <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/accessory/arduino" />
   <remove-project name="device/google/accessory/demokit" />
+  <remove-project name="device/lge/hammerhead-kernel" />
+  <remove-project name="device/moto/shamu-kernel" />
   <remove-project name="platform/external/eclipse-basebuilder" />
   <remove-project name="platform/external/eclipse-windowbuilder" />
   <remove-project name="platform/external/javasqlite" />
