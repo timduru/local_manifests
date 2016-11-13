@@ -13,8 +13,6 @@
 
 <!--  <remove-project name="platform/art" />
          <project path="art" name="timduru/platform_art"  revision="katkiss-6.0" remote="github"/>
-  <remove-project name="platform/frameworks/opt/net/wifi" />
-         <project path="frameworks/opt/net/wifi" name="timduru/platform-frameworks-opt-net-wifi" revision="katkiss-6.0" remote="github" />
   <remove-project name="platform/libcore" />
          <project path="libcore" name="timduru/platform-libcore" revision="aosp-6.0_buildfix" remote="github"/>  
 -->
@@ -39,6 +37,8 @@
          <project path="frameworks/ex" name="timduru/platform-frameworks-ex" revision="katkiss-7.0" remote="github"/>   
   <remove-project name="platform/frameworks/native" />
          <project path="frameworks/native" name="timduru/platform-frameworks-native" revision="katkiss-7.1" remote="github"/>
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+         <project path="frameworks/opt/net/wifi" name="timduru/platform-frameworks-opt-net-wifi" revision="katkiss-7.1" remote="github" />
   <remove-project name="platform/frameworks/wilhelm" />
          <project path="frameworks/wilhelm" name="timduru/platform-frameworks-wilhelm" revision="katkiss-7.0" remote="github"/>   
   <remove-project name="platform/hardware/broadcom/wlan" />
