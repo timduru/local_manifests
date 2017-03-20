@@ -25,7 +25,7 @@
   <remove-project name="platform/external/e2fsprogs" />
          <project path="external/e2fsprogs" name="timduru/platform-external-e2fsprogs"  revision="katkiss-7.0" remote="github" />
   <remove-project name="platform/external/sqlite" />
-         <project path="external/sqlite" name="timduru/external_sqlite" remote="github" revision="katkiss-7.0" />
+         <project path="external/sqlite" name="timduru/external_sqlite" remote="github" revision="katkiss-7.1" />
   <remove-project name="platform/external/skia" />
          <project path="external/skia" name="timduru/platform-external-skia"  revision="katkiss-7.1" remote="github" />
   <remove-project name="platform/external/wpa_supplicant_8" />
