@@ -22,12 +22,26 @@
          <project path="bootable/recovery" name="timduru/platform-bootable-recovery" revision="katkiss-7.1" remote="github" />
   <remove-project name="platform/dalvik" />
          <project path="dalvik" name="timduru/platform-dalvik" revision="katkiss-7.1" remote="github" />
+  <remove-project name="platform/external/dnsmasq" />
+         <project path="external/dnsmasq" name="timduru/platform-external-dnsmasq"  revision="aosp_katkiss-7.1" remote="github" />
   <remove-project name="platform/external/e2fsprogs" />
          <project path="external/e2fsprogs" name="timduru/platform-external-e2fsprogs"  revision="katkiss-7.0" remote="github" />
+  <remove-project name="platform/external/libavc" />
+         <project path="external/libavc" name="timduru/platform-external-libavc"  revision="aosp_katkiss-7.1" remote="github" />
+  <remove-project name="platform/external/libhevc" />
+         <project path="external/libhevc" name="timduru/platform-external-libhevc"  revision="aosp_katkiss-7.1" remote="github" />
+  <remove-project name="platform/external/libmpeg2" />
+         <project path="external/libmpeg2" name="timduru/platform-external-libmpeg2"  revision="aosp_katkiss-7.1" remote="github" />
+  <remove-project name="platform/external/libvpx" />
+         <project path="external/libvpx" name="timduru/platform-external-libvpx"  revision="aosp_katkiss-7.1" remote="github" />
   <remove-project name="platform/external/sqlite" />
          <project path="external/sqlite" name="timduru/external_sqlite" remote="github" revision="katkiss-7.1" />
   <remove-project name="platform/external/skia" />
          <project path="external/skia" name="timduru/platform-external-skia"  revision="katkiss-7.1" remote="github" />
+  <remove-project name="platform/external/sonivox" />
+         <project path="external/sonivox" name="timduru/platform-external-sonivox"  revision="aosp_katkiss-7.1" remote="github" />
+  <remove-project name="platform/external/tremolo" />
+         <project path="external/tremolo" name="timduru/platform-external-tremolo"  revision="aosp_katkiss-7.1" remote="github" />
   <remove-project name="platform/external/wpa_supplicant_8" />
          <project path="external/wpa_supplicant_8" name="timduru/platform-external-wpa_supplicant_8"  revision="katkiss-7.1" remote="github" />
   <remove-project name="platform/frameworks/av" />
@@ -45,6 +59,8 @@
          <project path="frameworks/wilhelm" name="timduru/platform-frameworks-wilhelm" revision="katkiss-7.1" remote="github"/>   
   <remove-project name="platform/hardware/broadcom/wlan" />
          <project path="hardware/broadcom/wlan" name="timduru/platform-hardware-broadcom-wlan"  revision="katkiss-7.1" remote="github" />
+  <remove-project name="platform/libcore" />
+         <project path="platform/libcore" name="timduru/platform-libcore"  revision="aosp_katkiss-7.1" remote="github"/>
          <project path="packages/apps/Browser" name="timduru/platform-packages-apps-browser"  revision="katkiss-7.0" remote="github"/>
   <remove-project name="platform/packages/apps/DeskClock" /> 
          <project path="packages/apps/DeskClock" name="timduru/platform-packages-apps-DeskClock"  revision="katkiss-7.1" remote="github" />  
@@ -52,8 +68,14 @@
          <project path="packages/apps/Gallery2" name="timduru/platform-packages-apps-Gallery2"  revision="katkiss-7.1" remote="github" />
   <remove-project name="platform/packages/apps/Launcher3" />
          <project path="packages/apps/Launcher3" name="timduru/platform-packages-apps-launcher3"  revision="katkiss-7.1" remote="github" />
+  <remove-project name="platform/packages/apps/Messaging" />
+         <project path="packages/apps/Messaging" name="timduru/platform-packages-apps-Messaging"  revision="aosp-katkiss-7.1" remote="github" />
   <remove-project name="platform/packages/apps/Music" />
          <project path="packages/apps/Music" name="timduru/platform-packages-apps-Music"  revision="aosp-katkiss-7.0_fix" remote="github" />
+  <remove-project name="platform/packages/apps/Nfc" />
+         <project path="packages/apps/Nfc" name="timduru/platform-packages-apps-Nfc"  revision="aosp-katkiss-7.1" remote="github" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+         <project path="packages/apps/PackageInstaller" name="timduru/platform-packages-apps-PackageInstaller"  revision="aosp-katkiss-7.1" remote="github" />
   <remove-project name="platform/packages/apps/Settings" />
          <project path="packages/apps/Settings" name="timduru/platform-packages-apps-Settings"  revision="katkiss-7.1" remote="github" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
@@ -82,22 +104,23 @@
   <project path="external/stagefright-plugins" name="timduru/android_external_stagefright-plugins"  revision="katkiss-6.0_c" remote="github"/>
 <!--  <project path="external/stlport" name="platform/external/stlport" revision="refs/tags/android-5.1.1_r30" remote="aosp" /> -->
   <project path="external/thtt" name="timduru/platform-external-thtt"  revision="katkiss-5.0" remote="github"/>
-  <project path="vendor/asus" name="timduru/platform-vendor-asus"  revision="eos-4.2.2" remote="github"/>
-  <project path="vendor/kat" name="timduru/platform-vendor-kat"  revision="katkiss-7.0" remote="github"/>
+<!--  <project path="vendor/asus" name="timduru/platform-vendor-asus"  revision="eos-4.2.2" remote="github"/> -->
+  <project path="vendor/kat" name="timduru/platform-vendor-kat"  revision="katkiss-7.1" remote="github"/>
   <project path="vendor/widevine" name="timduru/platform-vendor-widevine"  revision="katkiss-4.4" remote="github"/>
 
 <!-- TF101 -->
 
   <project path="device/asus/tf101" name="timduru/device_asus_tf101" revision="katkiss-6.0" remote="github"/>
-  <project path="kernel/asus/tf101" name="timduru/tf101-katkernel" revision="dev" remote="github"/>
+<!--  <project path="kernel/asus/tf101" name="timduru/tf101-katkernel" revision="dev" remote="github"/> -->
 
 <!-- TF201 -->
-  <project path="kernel/asus/tf201" name="timduru/tf300t-katkernel" revision="dev-tf700t" remote="github"/>
+<!--  <project path="kernel/asus/tf201" name="timduru/tf300t-katkernel" revision="dev-tf700t" remote="github"/> -->
 
 
 <!-- TF -->
 
-  <project path="device/asus/tf_unified" name="timduru/device_asus_tf_unified" revision="katkiss-6.0" remote="github"/>
+  <project path="device/asus/tf300t" name="timduru/device_asus_tf300t" revision="katkiss-7.1" remote="github"/>
+  <project path="device/asus/tf701t" name="timduru/device_asus_tf701t" revision="katkiss-7.1" remote="github"/>
 <!--  <project path="kernel/asus/tf300t" name="timduru/tf300t-katkernel" revision="dev-tf300t" remote="github"/>
   <project path="kernel/asus/tf700t" name="timduru/tf300t-katkernel" revision="dev-tf700t" remote="github"/>
 -->
@@ -122,7 +145,9 @@
   <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/accessory/arduino" />
   <remove-project name="device/google/accessory/demokit" />
+  <remove-project name="device/asus/fugu-kernel" />
   <remove-project name="device/moto/shamu-kernel" />
+  <remove-project name="device/lge/bullhead-kernel" />
   <remove-project name="platform/external/eclipse-basebuilder" />
   <remove-project name="platform/external/eclipse-windowbuilder" />
   <remove-project name="platform/external/javasqlite" />
@@ -136,7 +161,7 @@
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/prebuilts/android-emulator" /> 
-  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
