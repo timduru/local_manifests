@@ -55,6 +55,8 @@
          <project path="frameworks/native" name="timduru/platform-frameworks-native" revision="katkiss-7.1" remote="github"/>
   <remove-project name="platform/frameworks/opt/net/wifi" />
          <project path="frameworks/opt/net/wifi" name="timduru/platform-frameworks-opt-net-wifi" revision="katkiss-7.1" remote="github" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+         <project path="frameworks/opt/telephony" name="timduru/platform-frameworks-opt-telephony" revision="aosp_katkiss-7.1" remote="github" />
   <remove-project name="platform/frameworks/wilhelm" />
          <project path="frameworks/wilhelm" name="timduru/platform-frameworks-wilhelm" revision="katkiss-7.1" remote="github"/>   
   <remove-project name="platform/hardware/broadcom/wlan" />
@@ -90,6 +92,8 @@
          <project path="system/extras" name="timduru/platform-system-extras"  revision="cm-10.2_katkiss-7.1" remote="github"/>   
   <remove-project name="platform/system/media" />
          <project path="system/media" name="timduru/platform-system-media"  revision="katkiss-7.1" remote="github"/>
+  <remove-project name="platform/system/netd" />
+         <project path="system/netd" name="timduru/platform-system-netd"  revision="aosp_katkiss-7.1" remote="github"/>   
   <remove-project name="platform/system/vold" />
          <project path="system/vold" name="timduru/platform-system-vold"  revision="katkiss-7.1" remote="github"/>
 
