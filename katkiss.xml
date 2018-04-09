@@ -68,6 +68,8 @@
          <project path="packages/apps/Browser" name="timduru/platform-packages-apps-browser"  revision="katkiss-7.0" remote="github"/>
   <remove-project name="platform/packages/apps/DeskClock" /> 
          <project path="packages/apps/DeskClock" name="timduru/platform-packages-apps-DeskClock"  revision="katkiss-7.1" remote="github" />  
+  <remove-project name="platform/packages/apps/Email" />
+  	 <project path="packages/apps/Email" name="timduru/platform-packages-apps-Email"  revision="aosp_katkiss-7.1" remote="github" />
   <remove-project name="platform/packages/apps/Gallery2" />
          <project path="packages/apps/Gallery2" name="timduru/platform-packages-apps-Gallery2"  revision="katkiss-7.1" remote="github" />
   <remove-project name="platform/packages/apps/Launcher3" />
@@ -181,8 +183,6 @@
  
 <!-- Katkiss 6.0 rollback tocheck -->
 <!--
-  <remove-project name="platform/packages/apps/Email" />
-  <project path="packages/apps/Email" name="timduru/platform-packages-apps-Email"  revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/UnifiedEmail" name="timduru/platform-packages-apps-UnifiedEmail"  revision="katkiss-5.1" remote="github" />
   <remove-project name="platform/packages/apps/Contacts" />
