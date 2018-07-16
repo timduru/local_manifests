@@ -53,6 +53,8 @@
          <project path="frameworks/base" name="timduru/platform-frameworks-base" revision="katkiss-7.1" remote="github"/>
   <remove-project name="platform/frameworks/ex" />
          <project path="frameworks/ex" name="timduru/platform-frameworks-ex" revision="katkiss-7.1" remote="github"/>   
+  <remove-project name="platform/frameworks/minikin" />
+         <project path="frameworks/minikin" name="timduru/platform-frameworks-minikin" revision="katkiss-7.1" remote="github"/>
   <remove-project name="platform/frameworks/native" />
          <project path="frameworks/native" name="timduru/platform-frameworks-native" revision="katkiss-7.1" remote="github"/>
   <remove-project name="platform/frameworks/opt/net/wifi" />
