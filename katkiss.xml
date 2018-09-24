@@ -36,6 +36,10 @@
          <project path="external/libmpeg2" name="timduru/platform-external-libmpeg2"  revision="aosp_katkiss-7.1" remote="github" />
   <remove-project name="platform/external/libvpx" />
          <project path="external/libvpx" name="timduru/platform-external-libvpx"  revision="aosp_katkiss-7.1" remote="github" />
+  <remove-project name="platform/external/libxml2" />
+         <project path="external/libxml2" name="timduru/platform-external-libxml2"  revision="aosp_katkiss-7.1" remote="github" />
+  <remove-project name="platform/external/neven" />
+         <project path="external/neven" name="timduru/platform-external-neven"  revision="aosp_katkiss-7.1" remote="github" />
   <remove-project name="platform/external/sqlite" />
          <project path="external/sqlite" name="timduru/external_sqlite" remote="github" revision="katkiss-7.1" />
   <remove-project name="platform/external/skia" />
@@ -90,6 +94,8 @@
          <project path="packages/apps/Settings" name="timduru/platform-packages-apps-Settings"  revision="katkiss-7.1" remote="github" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
          <project path="packages/inputmethods/LatinIME" name="timduru/platform-packages-inputmethods-LatinIME"   revision="katkiss-7.1" remote="github" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+         <project path="packages/providers/DownloadProvider" name="timduru/platform-packages-providers-DownloadProvider"  revision="aosp_katkiss-7.1" remote="github" />
   <remove-project name="platform/packages/providers/MediaProvider" />
          <project path="packages/providers/MediaProvider" name="timduru/platform-packages-providers-MediaProvider"  revision="katkiss-7.1" remote="github" />
   <remove-project name="platform/system/bt" />
