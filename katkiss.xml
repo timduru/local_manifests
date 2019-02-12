@@ -42,6 +42,8 @@
          <project path="external/libxml2" name="timduru/platform-external-libxml2"  revision="aosp_katkiss-7.1" remote="github" />
   <remove-project name="platform/external/neven" />
          <project path="external/neven" name="timduru/platform-external-neven"  revision="aosp_katkiss-7.1" remote="github" />
+  <remove-project name="platform/external/libnfc-nci" />
+         <project path="external/libnfc-nci" name="timduru/platform-external-libnfc-nci"  revision="aosp_katkiss-7.1" remote="github" />
   <remove-project name="platform/external/sqlite" />
          <project path="external/sqlite" name="timduru/external_sqlite" remote="github" revision="katkiss-7.1" />
   <remove-project name="platform/external/skia" />
@@ -76,6 +78,8 @@
   <remove-project name="platform/libcore" />
          <project path="platform/libcore" name="timduru/platform-libcore"  revision="aosp_katkiss-7.1" remote="github"/>
          <project path="packages/apps/Browser" name="timduru/platform-packages-apps-browser"  revision="katkiss-7.0" remote="github"/>
+  <remove-project name="platform/packages/apps/Contacts" /> 
+         <project path="packages/apps/Contacts" name="timduru/platform-packages-apps-Contacts"  revision="aosp_katkiss-7.1" remote="github" />  
   <remove-project name="platform/packages/apps/DeskClock" /> 
          <project path="packages/apps/DeskClock" name="timduru/platform-packages-apps-DeskClock"  revision="katkiss-7.1" remote="github" />  
   <remove-project name="platform/packages/apps/Email" />
